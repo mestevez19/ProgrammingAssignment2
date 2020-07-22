@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This is a functions that calculate the inverso of the matrix
+## first execute variable<-makeCacheMatrix(matrix....)
+##then execute cacheSolve(samematrixbefore...)
 
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(matriz = matrix()) {
   inv<-NULL
@@ -24,8 +24,6 @@ makeCacheMatrix <- function(matriz = matrix()) {
   
 }
 
-
-## Write a short comment describing this function
 
 cacheSolve <- function(matriz, ...) {
         ## Return a matrix that is the inverse of 'x'
